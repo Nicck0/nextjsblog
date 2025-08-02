@@ -1,3 +1,4 @@
+import FeaturedSection from '@/components/FeaturedSection'
 import HeroSection from '@/components/HeroSection'
 import Navigation from '@/components/Navigation'
 import { Button } from '@/components/ui/button'
@@ -9,6 +10,7 @@ function page() {
      <Navigation/>
      <main>
       <HeroSection/>
+      <FeaturedSection/>
      </main>
     </div>
   )
